@@ -1,0 +1,43 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment & Secrets
+.env
+.env.*
+*.log
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Media Generation & Temporary Files (Keep repository lightweight)
+temp_*/
+temp_audio/
+temp_screenshots/
+temp_video_build/
+*.mp4
+*TEMP_MPY*
+
+# Local evaluation run outputs (preserve evaluation contract sample)
+output/*.mp4
+output/refactor_smoke_*.json
+output/smoke_*.json
+output/test_wiki_*.json
